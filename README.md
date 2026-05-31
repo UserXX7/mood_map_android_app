@@ -1,338 +1,138 @@
-\# Mood Map Android App
+# Mood Map Android App
 
+A simple Android mood tracking app that helps users log daily emotions, track mood history, view mood stats, and monitor mood streaks.
 
+Built as a final project for **MAC220 Android Development** at **LaGuardia Community College**.
 
-Mood Map is a simple and user-friendly Android mood tracking app built for my \*\*MAC220 Android Development Final Project\*\*. The app allows users to record their daily mood, add mood intensity, write optional notes, and review their mood history over time.
+---
 
+## 📌 Overview
 
+**Mood Map** is a beginner-friendly Android application designed to help users track their emotional well-being.
 
-The goal of this project is to create a clean mobile app that helps users become more aware of their emotions and daily mood patterns.
+Users can log their mood, choose an intensity level, add an optional note, and review saved mood history. The app focuses on simple navigation, clean design, and useful daily mood tracking features.
 
+---
 
+## ✨ Key Features
 
-\---
+| Feature | Description |
+|---|---|
+| User Login | Existing users can log into the app |
+| User Registration | New users can create an account |
+| Mood Tracking | Users can select their daily mood using emoji-based mood options |
+| Intensity Slider | Users can rate the strength of their mood from low to high |
+| Mood Notes | Users can add optional notes with each mood entry |
+| Mood History | Saved moods are displayed in a clean history screen |
+| Mood Stats | Users can view total entries and most common mood |
+| Mood Streak | Tracks how many days the user has logged moods |
+| Dark Mode | Users can switch between light mode and dark mode |
+| Local Storage | App data is saved locally using SharedPreferences |
 
+---
 
+## 📱 App Screens
 
-\## Project Overview
+The app includes the following screens:
 
+| Screen | Purpose |
+|---|---|
+| Login Screen | Allows existing users to sign in |
+| Registration Screen | Allows new users to create an account |
+| Home Dashboard | Shows welcome message, mood stats, streak, quote, and navigation buttons |
+| Add Mood Screen | Lets users select mood, intensity, and optional note |
+| Mood History Screen | Displays saved mood entries with date, time, mood, intensity, and note |
 
+---
 
-Mood Map helps users track how they feel each day using a simple mobile interface. Users can select a mood, adjust the intensity level, add a short note, and save the entry. The app also includes mood history, mood statistics, streak tracking, and dark mode support.
+## 🛠 Tech Stack
 
+| Technology | Usage |
+|---|---|
+| Kotlin | Main programming language |
+| Android Studio | Development environment |
+| XML Layouts | User interface design |
+| SharedPreferences | Local data storage |
+| Gradle | Build and dependency management |
 
+---
 
-This project focuses on core Android development concepts such as multiple activities, user input handling, local data storage, UI design, and app navigation.
+## 🎯 Project Purpose
 
+The purpose of this project is to build a simple but useful Android application that demonstrates core mobile development skills.
 
+This app shows understanding of:
 
-\---
+- Multi-screen Android navigation
+- User input handling
+- Local data storage
+- UI layout design
+- Light and dark mode support
+- Basic user authentication flow
+- Dynamic mood history display
 
+---
 
+## 🧠 What I Learned
 
-\## Features
+While building this project, I practiced:
 
+- Creating multiple Android activities
+- Designing mobile layouts with XML
+- Handling buttons, sliders, text input, and user actions
+- Saving and retrieving data with SharedPreferences
+- Managing user-specific mood data
+- Improving screen readability and usability
+- Debugging Android app issues
 
+---
 
-\### User Authentication
-
-
-
-\* Register a new user account
-
-\* Login with saved user credentials
-
-\* Logout from the app
-
-\* Separate mood data for each user
-
-
-
-\### Mood Tracking
-
-
-
-\* Select daily mood using emoji-based mood options
-
-\* Choose mood intensity using a slider
-
-\* Add an optional note for each mood entry
-
-\* Save mood entries locally
-
-
-
-\### Dashboard
-
-
-
-\* Welcome message for the logged-in user
-
-\* Quick access to add mood and view mood history
-
-\* Daily motivational quote section
-
-\* Mood statistics card
-
-\* Mood streak display
-
-\* Dark mode toggle
-
-
-
-\### Mood History
-
-
-
-\* View saved mood entries
-
-\* Display mood emoji, mood name, intensity, date, time, and note
-
-\* Delete individual mood entries
-
-\* Clear all mood history
-
-
-
-\### Extra UI Features
-
-
-
-\* Clean and beginner-friendly layout
-
-\* Light mode and dark mode support
-
-\* Scrollable screens for better usability
-
-\* Mobile-friendly button and card design
-
-
-
-\---
-
-
-
-\## Tech Stack
-
-
-
-\* \*\*Language:\*\* Kotlin
-
-\* \*\*IDE:\*\* Android Studio
-
-\* \*\*UI:\*\* XML Layouts
-
-\* \*\*Data Storage:\*\* SharedPreferences
-
-\* \*\*Build System:\*\* Gradle
-
-\* \*\*Platform:\*\* Android
-
-
-
-\---
-
-
-
-\## App Screens
-
-
-
-The app includes the following main screens:
-
-
-
-1\. \*\*Login Screen\*\*
-
-&#x20;  Allows existing users to log into the app.
-
-
-
-2\. \*\*Registration Screen\*\*
-
-&#x20;  Allows new users to create an account.
-
-
-
-3\. \*\*Home Dashboard\*\*
-
-&#x20;  Shows welcome message, mood stats, mood streak, motivational quote, and navigation buttons.
-
-
-
-4\. \*\*Add Mood Screen\*\*
-
-&#x20;  Lets users select a mood, set intensity, add a note, and save the entry.
-
-
-
-5\. \*\*Mood History Screen\*\*
-
-&#x20;  Displays all saved mood entries in a clean card-style layout.
-
-
-
-\---
-
-
-
-\## Purpose of the Project
-
-
-
-The purpose of Mood Map is to help users keep track of their emotional well-being in a simple way. Instead of using complicated features, the app focuses on quick daily mood logging and easy mood review.
-
-
-
-This project also demonstrates my understanding of Android app development, including:
-
-
-
-\* Activity navigation
-
-\* Form input handling
-
-\* Local data saving
-
-\* User-specific data management
-
-\* UI layout design
-
-\* Dark mode implementation
-
-\* Basic app state management
-
-
-
-\---
-
-
-
-\## What I Learned
-
-
-
-While building this project, I practiced and improved my skills in:
-
-
-
-\* Creating multiple Android activities
-
-\* Designing XML layouts
-
-\* Passing users between screens
-
-\* Saving and retrieving data with SharedPreferences
-
-\* Building a simple authentication flow
-
-\* Displaying dynamic mood history
-
-\* Improving UI readability and usability
-
-\* Debugging Android app issues
-
-
-
-\---
-
-
-
-\## Project Structure
-
-
+## 📂 Project Structure
 
 ```text
-
-MoodMapAndroidApp/
-
+mood_map_android_app/
 │
-
 ├── app/
-
 │   └── src/
-
 │       └── main/
-
 │           ├── java/
-
 │           ├── res/
-
 │           └── AndroidManifest.xml
-
 │
-
 ├── appImages/
-
 ├── gradle/
-
 ├── build.gradle.kts
-
 ├── settings.gradle.kts
-
 ├── gradlew
-
 ├── gradlew.bat
-
 └── README.md
-
 ```
 
+---
 
+## 🚀 Future Improvements
 
-\---
+Possible future upgrades include:
 
+- Calendar view for mood entries
+- Weekly and monthly mood reports
+- Mood charts and graphs
+- Push notification reminders
+- Cloud database support
+- Profile editing screen
+- Password reset feature
+- Export mood history option
 
+---
 
-\## Future Improvements
+## ✅ Project Status
 
+Completed for **MAC220 Android Development Final Project**.
 
+---
 
-Possible future updates for this app include:
+## 👤 Author
 
-
-
-\* Calendar view for mood entries
-
-\* Mood charts and weekly reports
-
-\* Export mood history
-
-\* Cloud database support
-
-\* Password reset option
-
-\* Profile editing screen
-
-\* Notification reminders for daily mood check-ins
-
-
-
-\---
-
-
-
-\## Project Status
-
-
-
-Completed as the final project for \*\*MAC220 Android Development\*\*.
-
-
-
-\---
-
-
-
-\## Author
-
-
-
-\*\*Alif Rony\*\*
-
-Programming \& Software Development Student
-
+**Alif Rony**  
+Programming & Software Development Student  
 LaGuardia Community College
-
-
-
