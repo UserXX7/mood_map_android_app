@@ -136,3 +136,7 @@ Completed for **MAC220 Android Development Final Project**.
 **Alif Rony**  
 Programming & Software Development Student  
 LaGuardia Community College
+
+**Didem Ekici**  
+Programming & Software Development Student  
+LaGuardia Community College
