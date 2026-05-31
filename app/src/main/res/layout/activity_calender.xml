@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#F5F7FB">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mood Calendar"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#2C3E50"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your mood records by date"
+        android:textSize="16sp"
+        android:textColor="#6B7280"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/tvCalendarList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="No calendar entries yet."
+        android:textSize="16sp"
+        android:textColor="#374151"
+        android:background="@drawable/dashboard_card"
+        android:padding="18dp" />
+
+    <Button
+        android:id="@+id/btnBackHome"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Back to Home"
+        android:textSize="16sp"
+        android:backgroundTint="#4F46E5"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="18dp" />
+
+</LinearLayout>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7FB">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Mood"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#2C3E50"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select your current mood"
+            android:textSize="16sp"
+            android:textColor="#6B7280"
+            android:layout_marginBottom="20dp" />
+
+        <GridLayout
+            android:id="@+id/gridMood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:layout_marginBottom="24dp">
+
+            <TextView
+                android:id="@+id/tvHappy"
+                android:layout_width="0dp"
+                android:layout_height="95dp"
+                android:layout_columnWeight="1"
+                android:text="😊&#10;Happy"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:background="@drawable/mood_card"
+                android:layout_margin="6dp" />
+
+            <TextView
+                android:id="@+id/tvSad"
+                android:layout_width="0dp"
+                android:layout_height="95dp"
+                android:layout_columnWeight="1"
+                android:text="😢&#10;Sad"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:background="@drawable/mood_card"
+                android:layout_margin="6dp" />
+
+            <TextView
+                android:id="@+id/tvAngry"
+                android:layout_width="0dp"
+                android:layout_height="95dp"
+                android:layout_columnWeight="1"
+                android:text="😡&#10;Angry"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:background="@drawable/mood_card"
+                android:layout_margin="6dp" />
+
+            <TextView
+                android:id="@+id/tvTired"
+                android:layout_width="0dp"
+                android:layout_height="95dp"
+                android:layout_columnWeight="1"
+                android:text="😴&#10;Tired"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:background="@drawable/mood_card"
+                android:layout_margin="6dp" />
+
+            <TextView
+                android:id="@+id/tvStressed"
+                android:layout_width="0dp"
+                android:layout_height="95dp"
+                android:layout_columnWeight="1"
+                android:text="😟&#10;Stressed"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:background="@drawable/mood_card"
+                android:layout_margin="6dp" />
+
+            <TextView
+                android:id="@+id/tvExcited"
+                android:layout_width="0dp"
+                android:layout_height="95dp"
+                android:layout_columnWeight="1"
+                android:text="😄&#10;Excited"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:background="@drawable/mood_card"
+                android:layout_margin="6dp" />
+
+        </GridLayout>
+
+        <TextView
+            android:id="@+id/tvMoodMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select a mood to see a helpful message."
+            android:textSize="15sp"
+            android:textColor="#374151"
+            android:background="@drawable/dashboard_card"
+            android:padding="16dp"
+            android:layout_marginBottom="22dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mood Intensity"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#2C3E50"
+            android:layout_marginBottom="8dp" />
+
+        <SeekBar
+            android:id="@+id/seekIntensity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="10"
+            android:progress="5" />
+
+        <TextView
+            android:id="@+id/tvIntensityValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Intensity: 5/10"
+            android:textSize="16sp"
+            android:textColor="#6B7280"
+            android:layout_marginBottom="24dp" />
+
+        <EditText
+            android:id="@+id/etMoodNote"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:hint="Write a short note..."
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:maxLength="200"
+            android:padding="14dp"
+            android:background="@drawable/rounded_input"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:id="@+id/tvNoteCounter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0/200"
+            android:textSize="13sp"
+            android:textColor="#6B7280"
+            android:gravity="end"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/btnSaveMood"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="Save Mood"
+            android:textSize="17sp"
+            android:backgroundTint="#4F46E5"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnBackHome"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Back to Home"
+            android:textSize="16sp"
+            android:backgroundTint="#10B981"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="12dp" />
+
+    </LinearLayout>
+</ScrollView>
